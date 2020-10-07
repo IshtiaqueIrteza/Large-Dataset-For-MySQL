@@ -5,7 +5,7 @@ CREATE TABLE `transaction_history` (
   `DESCRIPTION` varchar(1000) NOT NULL,
   `QUANTITY` int NOT NULL,
   `INVOICE_DATE` varchar(100) NOT NULL,
-  `UNIT_PRICE` decimal(10,0) NOT NULL,
+  `UNIT_PRICE` decimal(10,2) NOT NULL,
   `CUSTOMER_ID` int NOT NULL,
   `COUNTRY` varchar(45) NOT NULL,
   PRIMARY KEY (`ID`)
