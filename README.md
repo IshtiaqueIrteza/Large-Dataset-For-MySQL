@@ -6,6 +6,7 @@ Large dataset (insert query) mainly for MySQL, customizable for any other Databa
   * 'preprocessed_dataset.csv': Preprocessed data for SQL Environment. You can write your own code to generate a large "Insert Query" from this file/import csv files directly, based on your Database Platform.
   * 'sqlQueries.txt': Generated large "Insert Query" for MySQL Database.
   * 'table_DDL.txt': In case you need a readymade table to insert the data, for MySQL.
+  * 'FullSQLScript.sql': Full ready sql. Just import it in your MySQL or copy the texts & run them in MySQL Workbech, you're all set.
 
 # Data Descriptions :
   * Total data count: 5,41,909
